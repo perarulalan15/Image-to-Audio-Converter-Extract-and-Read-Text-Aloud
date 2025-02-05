@@ -1,0 +1,39 @@
+# Image to Speech: Extract Text from Images and Convert to Voice
+
+## 📌 Project Description
+This project extracts text from an image using Optical Character Recognition (OCR) and converts the extracted text into speech using Text-to-Speech (TTS) technology. It can be useful for visually impaired individuals, language learners, or situations where reading text manually is inconvenient.
+
+## 🛠️ Features
+- Extracts text from images using Tesseract OCR.
+- Converts extracted text to speech using a text-to-speech engine.
+- Supports multiple image formats (JPG, PNG, etc.).
+- Outputs audio in a clear and natural voice.
+
+## ⚡ Technologies Used
+- **Python**
+- **Tesseract OCR** (for text extraction)
+- **gTTS (Google Text-to-Speech)** (for voice conversion)
+- **PIL (Pillow)** (for image processing)
+
+## 📂 Installation & Setup
+
+### Prerequisites
+Ensure you have Python installed (preferably Python 3.x).
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/perarulalan15/Image-to-Audio-Converter-Extract-and-Read-Text-Aloud.git
+   cd Image-to-Audio-Converter-Extract-and-Read-Text-Aloud
+2. Install Tesseract OCR:
+
+   Windows: Download and install Tesseract-OCR.
+
+   Linux/Mac: Install via package manager:
+   ```bash
+   sudo apt install tesseract-ocr  # Ubuntu
+   brew install tesseract          # macOS
+
+## 📷 Example
+
+Input Image:
+
