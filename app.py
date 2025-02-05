@@ -10,7 +10,7 @@ model = Qwen2VLForConditionalGeneration.from_pretrained(
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct")
 
 # Replace with your local image path
-image_path = 'E:\\Arul\\Fazil\\images.jpeg'  
+image_path = 'images.jpeg'  
 # Load the image from the local path using PIL
 image = Image.open(image_path).convert("RGB")
 
