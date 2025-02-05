@@ -14,7 +14,6 @@ This project extracts text from an image using Optical Character Recognition (OC
 ## ⚡ Technologies Used
 - **Python**
 - **Qwen/Qwen2-VL-2B-Instruct** (for vision-language understanding)
-- **Tesseract OCR** (for text extraction)
 - **gTTS (Google Text-to-Speech)** (for voice conversion)
 - **PIL (Pillow)** (for image processing)
 
@@ -27,14 +26,6 @@ Ensure you have Python installed (preferably Python 3.x).
    ```bash
    git clone https://github.com/perarulalan15/Image-to-Audio-Converter-Extract-and-Read-Text-Aloud.git
    cd Image-to-Audio-Converter-Extract-and-Read-Text-Aloud
-2. Install Tesseract OCR:
-
-   Windows: Download and install Tesseract-OCR.
-
-   Linux/Mac: Install via package manager:
-   ```bash
-   sudo apt install tesseract-ocr  # Ubuntu
-   brew install tesseract          # macOS
 
 ## 📷 Example
 
