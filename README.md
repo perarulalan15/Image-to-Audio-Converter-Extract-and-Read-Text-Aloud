@@ -37,3 +37,8 @@ Ensure you have Python installed (preferably Python 3.x).
 
 Input Image:
 
+![Image](https://github.com/user-attachments/assets/58817128-65e0-4beb-9912-0f074f465e9d)
+
+Extracted Text: We start with good Because all businesses should be doing something good.
+
+The Audio file will be stored as a "output.mp3" file.
