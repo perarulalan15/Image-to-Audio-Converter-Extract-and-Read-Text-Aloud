@@ -1,16 +1,19 @@
 # Image to Speech: Extract Text from Images and Convert to Voice
 
 ## 📌 Project Description
-This project extracts text from an image using Optical Character Recognition (OCR) and converts the extracted text into speech using Text-to-Speech (TTS) technology. It can be useful for visually impaired individuals, language learners, or situations where reading text manually is inconvenient.
+
+This project extracts text from an image using Optical Character Recognition (OCR) and converts the extracted text into speech using Text-to-Speech (TTS) technology. It leverages the **Qwen/Qwen2-VL-2B-Instruct** model for enhanced vision-language understanding, ensuring accurate text extraction from complex images. This can be useful for visually impaired individuals, language learners, or situations where reading text manually is inconvenient.
+
 
 ## 🛠️ Features
-- Extracts text from images using Tesseract OCR.
+- Uses **Qwen/Qwen2-VL-2B-Instruct** for high-accuracy text extraction.
 - Converts extracted text to speech using a text-to-speech engine.
 - Supports multiple image formats (JPG, PNG, etc.).
 - Outputs audio in a clear and natural voice.
 
 ## ⚡ Technologies Used
 - **Python**
+- **Qwen/Qwen2-VL-2B-Instruct** (for vision-language understanding)
 - **Tesseract OCR** (for text extraction)
 - **gTTS (Google Text-to-Speech)** (for voice conversion)
 - **PIL (Pillow)** (for image processing)
